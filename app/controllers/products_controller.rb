@@ -1,8 +1,8 @@
 class ProductsController < ApplicationController
 
-  # def homepage
-  #   render :homepage
-  # end
+  def homepage
+    render :homepage
+  end
 
   def index
     cart = session[:cart]
