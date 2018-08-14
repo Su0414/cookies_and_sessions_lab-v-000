@@ -13,4 +13,5 @@ class ProductsController < ApplicationController
     session[:cart] = cart
     render :index
   end
+
 end
