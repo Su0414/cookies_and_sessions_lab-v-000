@@ -11,4 +11,5 @@ class ProductsController < ApplicationController
     cart << @product.id
 
     session[:cart] = cart
+  end
 end
