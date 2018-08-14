@@ -8,5 +8,5 @@ class ProductsController < ApplicationController
     cart << params[:product]
     session[:cart] = cart
     render :index
-  end 
+  end
 end
