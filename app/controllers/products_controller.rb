@@ -1,7 +1,7 @@
 class ProductsController < ApplicationController
 
   def homepage
-    erb :homepage
+    render :homepage
   end
 
   def index
